@@ -130,8 +130,7 @@ namespace GradeBook.GradeBooks
             }
             if (IsWeighted && (studentType.Equals(StudentType.Honors) || studentType.Equals(StudentType.DualEnrolled)))
                 result += 1;
-            if (IsWeighted)
-                result += 1;
+
             return result;
         }
 
